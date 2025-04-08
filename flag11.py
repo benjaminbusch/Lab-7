@@ -6,9 +6,9 @@ url = 'http://206.189.185.109:8070/flag11-cookie'  # Replace with the URL of the
 # Send a GET request to the URL
 # response = requests.get(url)
 
-# cookies = dict(cookies_are='working')
+cookies = dict(myinfo='cosi107a')
 
-response = requests.get(url, myinfo='cosi107a')
+response = requests.get(url, cookies=cookies)
 # Get the headers of the response
 headers = response.headers
 
