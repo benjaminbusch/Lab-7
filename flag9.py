@@ -1,7 +1,7 @@
 import requests
 
 # URL of the web page
-url = 'http://206.189.185.109:8070/flag9'  # Replace with the URL of the page you're interested in
+url = 'http://206.189.185.109:8070/flag12'  # Replace with the URL of the page you're interested in
 
 # Send a GET request to the URL
 response = requests.get(url)
